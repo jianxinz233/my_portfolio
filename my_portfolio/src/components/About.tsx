@@ -42,8 +42,8 @@ export default function About() {
           <br />
           <br />
           I&apos;ve since gained hands-on experience with JavaScript, React,
-          Node.js, and SQL, and I'm currently expanding my skills through UI/UX
-          design. I love building clean, intuitive interfaces and crafting
+          Node.js, and SQL, and I&apos;m currently expanding my skills through
+          UI/UX design. I love building clean, intuitive interfaces and crafting
           digital experiences that connect people and ideas.
         </Typography>
 
