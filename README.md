@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio built with **Next.js**, **TypeScript*
 
 ## 🔗 Live Site
 
-[Visit my portfolio](#)
+[Visit my portfolio](https://my-portfolio-avuzfrygn-jianxins-projects-5ed1a9eb.vercel.app/)
 
 ## 🚀 Tech Stack
 
