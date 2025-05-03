@@ -44,7 +44,7 @@ export default function HeroSection() {
               sx={{ fontSize: { xs: "2rem", sm: "2.5rem", md: "3rem" } }}
               textAlign={{ xs: "center", md: "left" }}
             >
-              Hello, I’m Jianxin
+              Hello, I&apos;m Jianxin
             </Typography>
             <Typography
               variant="h5"

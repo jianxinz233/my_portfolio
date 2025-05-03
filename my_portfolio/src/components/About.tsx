@@ -35,16 +35,16 @@ export default function About() {
             px: { md: 4 },
           }}
         >
-          With a background in marketing and brand management, I’ve always been
-          passionate about storytelling and user experience. After relocating to
-          Denmark, I decided to turn that passion into a new path — Full-Stack
-          development.
+          With a background in marketing and brand management, I&apos;ve always
+          been passionate about storytelling and user experience. After
+          relocating to Denmark, I decided to turn that passion into a new path
+          — Full-Stack development.
           <br />
           <br />
-          I’ve since gained hands-on experience with JavaScript, React, Node.js,
-          and SQL, and I'm currently expanding my skills through UI/UX design. I
-          love building clean, intuitive interfaces and crafting digital
-          experiences that connect people and ideas.
+          I&apos;ve since gained hands-on experience with JavaScript, React,
+          Node.js, and SQL, and I'm currently expanding my skills through UI/UX
+          design. I love building clean, intuitive interfaces and crafting
+          digital experiences that connect people and ideas.
         </Typography>
 
         <Typography
