@@ -44,7 +44,6 @@ export default function Navbar() {
               height: "50px",
               cursor: "pointer",
             }}
-            priority
           />
         </Link>
 
