@@ -26,6 +26,8 @@ export default function HeroSection() {
               alt="Portrait"
               width={360}
               height={394}
+              priority
+              unoptimized
               style={{
                 width: "100%",
                 height: "auto",

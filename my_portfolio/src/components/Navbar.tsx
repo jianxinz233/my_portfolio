@@ -39,6 +39,8 @@ export default function Navbar() {
             alt="Logo"
             width={160}
             height={50}
+            priority
+            unoptimized
             style={{
               width: "auto",
               height: "50px",
