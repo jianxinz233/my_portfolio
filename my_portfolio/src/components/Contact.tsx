@@ -10,7 +10,7 @@ export default function Contact() {
         <Button
           variant="contained"
           color="primary"
-          href="mailto:your.email@example.com"
+          href="mailto:jianxinz233@gmail.com"
         >
           Email Me
         </Button>
