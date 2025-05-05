@@ -29,7 +29,16 @@ export default function Projects() {
   return (
     <Box id="projects" sx={{ py: 8 }}>
       <Container>
-        <Typography variant="h4" gutterBottom textAlign="center">
+        <Typography
+          variant="h4"
+          fontWeight="bold"
+          gutterBottom
+          sx={{
+            fontSize: { xs: "2rem", md: "2.5rem" },
+            mb: 4,
+          }}
+          textAlign="center"
+        >
           Projects
         </Typography>
         <Grid

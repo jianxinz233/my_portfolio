@@ -15,7 +15,16 @@ const skills = [
 export default function Skills() {
   return (
     <Box id="skills" sx={{ py: 8, backgroundColor: "background.default" }}>
-      <Typography variant="h4" align="center" gutterBottom>
+      <Typography
+        variant="h4"
+        fontWeight="bold"
+        gutterBottom
+        sx={{
+          fontSize: { xs: "2rem", md: "2.5rem" },
+          mb: 4,
+        }}
+        textAlign="center"
+      >
         Skills
       </Typography>
       <Grid container spacing={4} justifyContent="center">
