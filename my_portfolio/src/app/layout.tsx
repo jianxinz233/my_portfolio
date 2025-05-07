@@ -6,8 +6,8 @@ import ThemeRegistry from "./ThemeRegistry";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "A green, Nordic-inspired personal site",
+  title: "Jianxin's Portfolio",
+  description: "Jianxin's personal portfolio showcasing projects and skills.",
 };
 
 export default function RootLayout({
