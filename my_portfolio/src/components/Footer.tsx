@@ -19,7 +19,7 @@ export default function Footer() {
         <GitHub />
       </IconButton>
       <Typography variant="body2" align="center" color="text.secondary">
-        Design & Developed by Jianxin
+        © {new Date().getFullYear()} Design & Developed by Jianxin
       </Typography>
     </Box>
   );
