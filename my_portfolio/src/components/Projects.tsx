@@ -13,7 +13,8 @@ import {
 const projects = [
   {
     title: "Cooking Note",
-    description: "Share recipes and generate shopping lists.",
+    description:
+      "Share recipes and generate shopping lists. And all recipes are made by myself as I'm also a cake lover.",
     link: "https://github.com/jianxinz233/recipe_app_hyf",
     image: "/images/recipe-app.png",
   },
