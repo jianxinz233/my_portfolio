@@ -10,6 +10,8 @@ const skills = [
   { name: "mySQL", icon: "/skills/mysql.svg" },
   { name: "HTML", icon: "/skills/html.svg" },
   { name: "CSS", icon: "/skills/css.svg" },
+  { name: "Python", icon: "/skills/python.svg" },
+  { name: "PowerBI", icon: "/skills/powerbi.svg" },
 ];
 
 export default function Skills() {
@@ -27,7 +29,7 @@ export default function Skills() {
       >
         Skills
       </Typography>
-      <Grid container spacing={4} justifyContent="center">
+      <Grid container spacing={5} justifyContent="center">
         {skills.map((skill) => (
           <Grid key={skill.name}>
             <Box textAlign="center">
