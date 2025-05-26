@@ -15,13 +15,15 @@ const projects = [
     title: "Cooking Note",
     description:
       "Share recipes and generate shopping lists. And all recipes are made by myself as I'm also a cake lover.",
-    link: "https://github.com/jianxinz233/recipe_app_hyf",
+    demoLink: "https://cookingnote.netlify.app/",
+    githubLink: "https://github.com/jianxinz233/recipe_app_hyf",
     image: "/images/recipe-app.png",
   },
   {
     title: "Meal Sharing App",
     description: "Full-stack meal-sharing platform.",
-    link: "https://github.com/jianxinz233/meal-sharing",
+    demoLink: "#",
+    githubLink: "https://github.com/jianxinz233/meal-sharing",
     image: "/images/meal-sharing.png",
   },
 ];
@@ -113,7 +115,15 @@ export default function Projects() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" href={project.link} target="_blank">
+                  <Button size="small" href={project.demoLink} target="_blank">
+                    Demo
+                  </Button>
+                  <Typography>|</Typography>
+                  <Button
+                    size="small"
+                    href={project.githubLink}
+                    target="_blank"
+                  >
                     View on GitHub
                   </Button>
                 </CardActions>
