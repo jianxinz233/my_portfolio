@@ -2,6 +2,10 @@
 
 Welcome to my personal developer portfolio built with **Next.js**, **TypeScript**, and **Material UI**. This site showcases my journey from marketing into web development, featuring my skills, projects, and contact information.
 
+## 📷 Screenshots
+
+ <img src="my_portfolio/public/images/my_portfolio_ss.png" alt="website" height="500">
+
 ## 🔗 Live Site
 
 [Visit my portfolio](https://jianxinz.netlify.app/)
@@ -17,10 +21,6 @@ Welcome to my personal developer portfolio built with **Next.js**, **TypeScript*
 ## 👩🏻‍💻 About Me
 
 I have a background in marketing and brand management and recently transitioned to full-stack development in Denmark. I'm currently learning UI/UX and enjoy building intuitive, user-focused digital experiences.
-
-## 📷 Screenshots
-
- <img src="my_portfolio/public/images/my_portfolio_ss.png" alt="website" height="500">
 
 ## 📬 Contact
 
