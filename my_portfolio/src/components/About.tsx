@@ -35,16 +35,21 @@ export default function About() {
             px: { md: 4 },
           }}
         >
-          With a background in marketing and brand management, I&apos;ve always
-          been passionate about storytelling and user experience. After
-          relocating to Denmark, I decided to turn that passion into a new path
-          — Full-Stack development.
+          With a background in project coordination and brand management,
+          I&apos;ve always been driven by creating meaningful experiences,
+          whether through storytelling, well-executed projects, or engaging
+          digital products. After relocating to Denmark, I expanded on this
+          passion by learning Full-Stack Development and Data Analytics, gaining
+          hands-on experience with JavaScript, React, Node.js, SQL, and Power
+          BI, while also developing skills in UI/UX design.
           <br />
           <br />
-          I&apos;ve since gained hands-on experience with JavaScript, React,
-          Node.js, and SQL, and I&apos;m currently expanding my skills through
-          UI/UX design. I love building clean, intuitive interfaces and crafting
-          digital experiences that connect people and ideas.
+          Today, I&apos;m combining my experience in project and brand
+          management with new digital skills, enjoying both worlds: coordinating
+          projects, improving processes with data insights, and building clean,
+          user-friendly digital interfaces. I&apos;m excited by roles where I
+          can connect people, ideas, and technology, whether through project
+          coordination, product development, or digital solutions.
         </Typography>
 
         <Typography
@@ -56,9 +61,14 @@ export default function About() {
             px: { xs: 2 },
           }}
         >
-          A former marketing professional now building user-friendly websites
-          with React, JavaScript, Node.js, Database and UI/UX design. Currently
-          based in Denmark and loving the creative process of development.
+          <strong>Project & brand manager</strong> turned{" "}
+          <strong>web developer</strong>, upskilling in{" "}
+          <strong>data analytics</strong> and <strong>UI/UX design</strong>.
+          Building user-friendly websites with <strong>React</strong>,{" "}
+          <strong>JavaScript</strong>, <strong>Node.js</strong>,{" "}
+          <strong>SQL</strong>, and <strong>Power BI</strong>. Based in Denmark,
+          combining <strong>creativity</strong>, <strong>structure</strong>, and{" "}
+          <strong>technology</strong>.
         </Typography>
       </Container>
     </Box>
