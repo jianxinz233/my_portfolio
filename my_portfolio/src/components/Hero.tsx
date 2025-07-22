@@ -51,7 +51,8 @@ export default function HeroSection() {
               variant="h5"
               sx={{ fontSize: { xs: "1.1rem", sm: "1.3rem" }, px: { xs: 2 } }}
             >
-              Full-Stack Developer with a passion for clean design & UX
+              Full-Stack Developer combining project management experience, data
+              analytics, and a passion for clean design & UX.
             </Typography>
           </Box>
         </Box>
