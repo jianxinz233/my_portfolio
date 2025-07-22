@@ -26,6 +26,13 @@ const projects = [
     githubLink: "https://github.com/jianxinz233/meal-sharing",
     image: "/images/meal-sharing.png",
   },
+  {
+    title: "Performance Analytics Dashboard",
+    description: "HYF Final Project - Full-stack Project with AdWiseli",
+    demoLink: "https://hyf-adwiseli-maher-c2isinfluencer.vercel.app/dashboard",
+    githubLink: "https://github.com/kiko-bkr/hyf-adwiseli",
+    image: "/images/influencer_screenshot.png",
+  },
 ];
 
 const nonTechProjects = [
