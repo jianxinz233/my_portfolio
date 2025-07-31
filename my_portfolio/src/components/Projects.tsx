@@ -66,7 +66,7 @@ export default function Projects() {
           }}
           textAlign="center"
         >
-          Projects
+          Web Development Projects
         </Typography>
         <Grid
           container
