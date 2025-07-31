@@ -40,7 +40,15 @@ const nonTechProjects = [
     title: "Logistics Data Analysis",
     description:
       "Student Collaboration Project with BESTSELLER to analyze logistics data and provide insights with a dashboard product.",
+    githubLink: "#",
     image: "/images/DAproject_ss.png",
+  },
+  {
+    title: "HR Analytics Dashboard",
+    description:
+      "Mini Project - Data Analytics Course (2024 Fall) Power BI version. A python version is on the way.",
+    githubLink: "https://github.com/jianxinz233/hr-analytics-redi",
+    image: "/images/da_hr_ss_rate.png",
   },
 ];
 
@@ -122,9 +130,19 @@ export default function Projects() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" href={project.demoLink} target="_blank">
-                    Demo
-                  </Button>
+                  {project.demoLink === "#" ? (
+                    <Button size="small" disabled>
+                      Demo
+                    </Button>
+                  ) : (
+                    <Button
+                      size="small"
+                      href={project.demoLink}
+                      target="_blank"
+                    >
+                      Demo
+                    </Button>
+                  )}
                   <Typography>|</Typography>
                   <Button
                     size="small"
@@ -151,7 +169,7 @@ export default function Projects() {
           }}
           textAlign="center"
         >
-          Data Analytics / Marketing Projects
+          Data Analytics Projects
         </Typography>
         <Grid
           container
@@ -214,6 +232,21 @@ export default function Projects() {
                     {project.description}
                   </Typography>
                 </CardContent>
+                <CardActions>
+                  {project.githubLink === "#" ? (
+                    <Button size="small" disabled>
+                      View on GitHub
+                    </Button>
+                  ) : (
+                    <Button
+                      size="small"
+                      href={project.githubLink}
+                      target="_blank"
+                    >
+                      View on GitHub
+                    </Button>
+                  )}
+                </CardActions>
               </Card>
             </Grid>
           ))}
