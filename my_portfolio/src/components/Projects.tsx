@@ -33,6 +33,14 @@ const projects = [
     githubLink: "https://github.com/kiko-bkr/hyf-adwiseli",
     image: "/images/influencer_screenshot.png",
   },
+  {
+    title: "Inventory & Order Management API",
+    description:
+      "Node.js + Express + MySQL REST API simulating inventory and order management",
+    demoLink: "#",
+    githubLink: "https://github.com/jianxinz233/inventory-api",
+    image: "/images/inventoryapi_ss.png",
+  },
 ];
 
 const nonTechProjects = [
