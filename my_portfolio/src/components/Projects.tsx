@@ -34,6 +34,15 @@ const projects = [
     image: "/images/influencer_screenshot.png",
   },
   {
+    title: "LEGO UX Case Study",
+    description:
+      "Created Figma prototypes and mockups for user experience on LEGO website. Applied user research, wireframing, and usability testing principles",
+    demoLink:
+      "https://www.loom.com/share/a9cfa1baf0f8499ba181ca2024fd26cb?sid=cfbc0071-714c-4b95-ac50-5269c8f93d25",
+    githubLink: "#",
+    image: "/images/uxlegoss.png",
+  },
+  {
     title: "Inventory & Order Management API",
     description:
       "Node.js + Express + MySQL REST API simulating inventory and order management",
@@ -152,13 +161,19 @@ export default function Projects() {
                     </Button>
                   )}
                   <Typography>|</Typography>
-                  <Button
-                    size="small"
-                    href={project.githubLink}
-                    target="_blank"
-                  >
-                    View on GitHub
-                  </Button>
+                  {project.githubLink === "#" ? (
+                    <Button size="small" disabled>
+                      View on GitHub
+                    </Button>
+                  ) : (
+                    <Button
+                      size="small"
+                      href={project.githubLink}
+                      target="_blank"
+                    >
+                      View on GitHub
+                    </Button>
+                  )}
                 </CardActions>
               </Card>
             </Grid>
