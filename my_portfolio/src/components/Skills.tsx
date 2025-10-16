@@ -33,7 +33,12 @@ export default function Skills() {
         {skills.map((skill) => (
           <Grid key={skill.name}>
             <Box textAlign="center">
-              <Image src={skill.icon} alt={skill.name} width={64} height={64} />
+              <Image
+                src={skill.icon}
+                alt={`Logo of ${skill.name}`}
+                width={64}
+                height={64}
+              />
               <Typography variant="subtitle1">{skill.name}</Typography>
             </Box>
           </Grid>
