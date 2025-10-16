@@ -8,6 +8,7 @@ export default function Footer() {
         href="https://www.linkedin.com/in/jianxin-zhao/"
         target="_blank"
         color="primary"
+        aria-label="Visit my LinkedIn profile"
       >
         <LinkedIn />
       </IconButton>
@@ -15,6 +16,7 @@ export default function Footer() {
         href="https://github.com/jianxinz233"
         target="_blank"
         color="primary"
+        aria-label="Visit my GitHub profile"
       >
         <GitHub />
       </IconButton>
