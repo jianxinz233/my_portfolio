@@ -111,7 +111,7 @@ export default function Projects() {
                   <CardMedia
                     component="img"
                     image={project.image}
-                    alt={project.title}
+                    alt={`Screenshot of ${project.title} project interface`}
                     sx={{
                       position: "absolute",
                       top: 0,
@@ -220,7 +220,7 @@ export default function Projects() {
                   <CardMedia
                     component="img"
                     image={project.image}
-                    alt={project.title}
+                    alt={`Screenshot of ${project.title} project interface`}
                     sx={{
                       position: "absolute",
                       top: 0,
